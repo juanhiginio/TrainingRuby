@@ -5,6 +5,8 @@ class Book
 end 
 
 # Instance the class Book
+# Object is an instance of a class
+
 book1 = Book.new() # create a new object of the class Book
 book1.title = "Harry Potter" # set the title of the book
 book1.author = "J.K. Rowling" # set the autor of the book
