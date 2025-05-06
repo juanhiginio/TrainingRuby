@@ -15,4 +15,7 @@ rescue TypeError => e
   # Handle the error here
   # e.message will give you the error message
   puts e
+rescue StandardError => e
+  # Handle the error here
+  puts e.message
 end 
