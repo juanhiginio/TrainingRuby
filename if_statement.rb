@@ -1,9 +1,7 @@
 # Simple if statement
 is_male = true
 
-if is_male
-  puts "You are a man"
-end 
+puts "You are a man" if is_male
 
 # Simple if-else statement
 is_married = false
@@ -18,11 +16,11 @@ end
 is_tall = true
 is_single = false
 
-if is_tall and is_single
+if is_tall && is_single
   puts "You are tall and single"
-elsif is_tall and  !is_single
+elsif is_tall &&  !is_single
   puts "You are tall but not single"
-elsif not is_tall and is_single
+elsif not is_tall && is_single
   puts "You are not tall but single"
 else
   puts "You are not tall and not single"
@@ -33,6 +31,4 @@ end
 is_white = false
 is_human = true
 
-if is_white or is_human
-  puts "You are a human"
-end
+puts "You are a human" if is_white || is_human

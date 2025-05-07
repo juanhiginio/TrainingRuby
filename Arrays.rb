@@ -9,7 +9,7 @@ puts types[-2] # prints the element of the array that is at index -2, es decir q
 
 # Modify values in an array
 friends[0] = "Juan"
-puts "My new friends are #{friends}"
+puts "My new friends are #{ friends }"
 
 
 # Array without initial values
@@ -22,9 +22,9 @@ puts colors # prints the entire array
 
 # Array Methods
 places = Array["Paris", "London", "New York", "Tokyo"]
-puts places.length() # prints the length of the array
+puts places.length # prints the length of the array
 puts places.include?("Paris") # prints true if the array contains the value "Paris"
 puts places.include?("Berlin") # prints false if the array does not contain the value "Berlin"
-puts places.reverse() # prints the array in reverse order
-puts places.sort() # prints the array sorted in alphabetical order
+puts places.reverse # prints the array in reverse order
+puts places.sort # prints the array sorted in alphabetical order
 puts places.join(", ") # prints the array as a string separated by commas

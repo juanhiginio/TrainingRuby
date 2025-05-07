@@ -19,10 +19,10 @@ class ItalianChef < Chef # ItalianChef is a subclass of Chef
   end
 end
 
-chef = Chef.new() # create an object of the class Chef
+chef = Chef.new # create an object of the class Chef
 chef.make_chicken # call the method make_chicken of the class Chef
 
-italian_chef = ItalianChef.new() # create an object of the class ItalianChef
+italian_chef = ItalianChef.new # create an object of the class ItalianChef
 italian_chef.make_special_dish # call the method make_special_dish of the class ItalianChef
 italian_chef.make_chicken # call the method make_chicken of the class Chef (inherited from Chef)
 italian_chef.make_pasta # call the method make_pasta of the class ItalianChef

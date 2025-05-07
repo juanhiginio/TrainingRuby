@@ -18,18 +18,18 @@ puts "Hello World\t"
 
 phrase = "Giraffe Academy"
 
-puts phrase.upcase() # Convertir la cadena a mayúsculas
-puts "Programming".upcase() # Convertir la cadena a mayúsculas
+puts phrase.upcase # Convertir la cadena a mayúsculas
+puts "Programming".upcase # Convertir la cadena a mayúsculas
 
 
-puts phrase.downcase() # Convertir la cadena a minúsculas
-puts "Programming".downcase() # Convertir la cadena a minúsculas
+puts phrase.downcase # Convertir la cadena a minúsculas
+puts "Programming".downcase # Convertir la cadena a minúsculas
 
-puts phrase.strip() # Eliminar espacios en blanco al principio y al final de la cadena
-puts "    Programming    ".strip() # Eliminar espacios en blanco al principio y al final de la cadena
+puts phrase.strip # Eliminar espacios en blanco al principio y al final de la cadena
+puts "    Programming    ".strip # Eliminar espacios en blanco al principio y al final de la cadena
 
-puts phrase.length() # Obtener la longitud de la cadena
-puts "Programming".length() # Obtener la longitud de la cadena
+puts phrase.length # Obtener la longitud de la cadena
+puts "Programming".length # Obtener la longitud de la cadena
 
 puts phrase.include?("Giraffe") # Verificar si la cadena contiene una subcadena
 puts "Programming".include?("Giraffe") # Verificar si la cadena contiene una subcadena

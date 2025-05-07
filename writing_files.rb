@@ -14,6 +14,6 @@ end
 
 # Read and write to a file - r+ mode - Start reading from the beginning of the file and then write to it
 File.open("TextFiles/nuevoArchivoPrueba.txt", "r+") do |file|
-  file.readline() # Read the first line of the file
+  file.readline # Read the first line of the file
   file.write("\nThis is te second text") # Write something at the 2nd line of the file
 end

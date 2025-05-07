@@ -6,7 +6,7 @@ begin
   numbers = Array[3, 5, 7, 9, 11]
   numbers["dog"] 
   num = 10/0
-
+  
 rescue ZeroDivisionError => e
   # Handle the error here
   # e.message will give you the error message

@@ -19,8 +19,9 @@ numbers = {
   2 => "two",
   3 => "three",
   4 => "four",
-  5 => "five",
+  5 => "five"
 }
 
 puts numbers[3] # prints the value of the key 3
+print numbers.size # prints the size of the hash
 

@@ -1,15 +1,15 @@
 def cube(num)
-  return num ** 3
+  return num**3
 end
 
 puts cube(3)
 
 def cube(num)
-  return num ** 3
+  return num**3
 end
 
 def square(num)
-  return num ** 2, "#{num} squared is #{num ** 2}"
+  return num**2, "#{ num } squared is #{ num ** 2 }"
 end
 
 puts square(6)

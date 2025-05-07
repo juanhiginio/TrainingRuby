@@ -1,5 +1,6 @@
 class Question
   attr_accessor :prompt, :answer
+
   def initialize(prompt, answer) 
     @prompt = prompt
     @answer = answer
@@ -19,14 +20,15 @@ questions = Array[
 def run_test(questions)
   answer = nil
   score = 0
+
   for question in questions
     puts question.prompt
-    answer = gets.chomp().downcase
-    if answer == question.answer
-      score += 1
-    end
+    answer = gets.chomp.downcase
+
+    score += 1 if answer == question.answer
   end
-  puts "You got #{score.to_s} out of #{questions.length.to_s} correct!"
+  message = format("You got %d out of %d correct!", score, questions.length)
+  puts message
 end 
 
 run_test(questions)

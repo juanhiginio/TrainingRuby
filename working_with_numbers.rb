@@ -8,16 +8,16 @@ puts -5
 puts 5 + 9
 puts 5 - 9
 puts 5 * 9
-puts 5 / 9
+puts 5/9
 puts 5 % 9
-puts 5 ** 9 # Exponentiation
+puts 5**9 # Exponentiation
 
 puts 5 + 9.54
 puts 5.54 - 9.689
 puts 5 * 9.45
-puts 5.5 / 9.56
+puts 5.5/9.56
 puts 5 % 9.65
-puts 5 ** 9.98 # Exponentiation
+puts 5**9.98 # Exponentiation
 
 # Operaciones matemáticas con variables
 num1 = 5
@@ -26,9 +26,9 @@ num2 = 9
 puts num1 + num2
 puts num1 - num2  
 puts num1 * num2
-puts num1 / num2
+puts num1/num2
 puts num1 % num2
-puts num1 ** num2 # Exponentiation
+puts num1**num2 # Exponentiation
 
 # Operaciones matemáticas con variables de tipo float
 num1Deci = 5.5
@@ -36,9 +36,9 @@ num2Deci = 9.5
 puts num1Deci + num2Deci
 puts num1Deci - num2Deci
 puts num1Deci * num2Deci
-puts num1Deci / num2Deci
+puts num1Deci/num2Deci
 puts num1Deci % num2Deci
-puts num1Deci **num2Deci # Exponentiation
+puts num1Deci**num2Deci # Exponentiation
 
 # Métodos de números 
 favorite_number = 10
@@ -60,7 +60,7 @@ puts favorite_number.to_c # Convertir a complejo
 # Convertir un número a string
 puts "My favorite number is " + 5.to_s
 favorite_number = 10
-puts "My favorite number is #{favorite_number.to_s}"
+puts "My favorite number is #{ favorite_number.to_s }"
 
 # Metodos Númericos de la clase Math
 num_math = 25.5
