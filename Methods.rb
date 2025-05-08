@@ -1,8 +1,8 @@
 # The methods are pieces of code that are used to perform specific tasks.
 
-puts "Whats your name: "
+puts 'Whats your name: '
 name = gets.chomp
-puts "Whats your age: "
+puts 'Whats your age: '
 age = gets.chomp
 
 def sayhi(name, age)
@@ -10,7 +10,7 @@ def sayhi(name, age)
 end
 
 def saybye
-  puts "Goodbye"
+  puts 'Goodbye'
 end
 
 sayhi(name, age)
@@ -18,7 +18,7 @@ sayhi("Mike", 35) # You can call the method with different arguments to see how 
 
 saybye
 
-def say_goodbye(name = "No name", age = -1) # Default values for parameters
+def say_goodbye(name = 'No name', age = -1) # Default values for parameters
   puts "Goodbye #{ name }, you are #{ age } years old"
 end
  

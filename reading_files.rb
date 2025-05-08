@@ -11,7 +11,7 @@ File.open("TextFiles/Employees.txt", "r") do |file|
 
   puts content # Read the entire file
 
-  puts content.include? "uan" # Check if the file contains the word "uan", - Ya que el primer caracter ya se leyo en una línea anterior, el resultado es true.
+  puts content.include? 'uan' # Check if the file contains the word "uan", - Ya que el primer caracter ya se leyo en una línea anterior, el resultado es true.
 end 
 
 # Loop to read the file line by line

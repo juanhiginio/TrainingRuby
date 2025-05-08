@@ -8,15 +8,15 @@ puts types # prints the entire array
 puts types[-2] # prints the element of the array that is at index -2, es decir que es el penúltimo elemento de la lista, ya que el -1 es el último elemento de la lista
 
 # Modify values in an array
-friends[0] = "Juan"
+friends[0] = 'Juan'
 puts "My new friends are #{ friends }"
 
 
 # Array without initial values
 colors = Array.new #Array without initial values
-colors[0] = "Red" # Assign value to index 0
-colors[1] = "Green" # Assign value to index 1
-colors[2] = "Blue" # Assign value to index 2
+colors[0] = 'Red' # Assign value to index 0
+colors[1] = 'Green' # Assign value to index 1
+colors[2] = 'Blue' # Assign value to index 2
 
 puts colors # prints the entire array
 

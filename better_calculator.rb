@@ -1,8 +1,8 @@
-puts "Enter first number: "
+puts 'Enter first number: '
 num1 = gets.chomp.to_f
-puts "Enter second number: "
+puts 'Enter second number: '
 num2 = gets.chomp.to_f
-puts "Enter the operation you want to perform: "
+puts 'Enter the operation you want to perform: '
 puts "(+) to Addition"
 puts "(-) to Subtraction"
 puts "(*) to Multiplication"
@@ -24,7 +24,7 @@ def calculator(num1, num2, operation)
   elsif operation == "%"
     result = num1 % num2
   else
-    return "Invalid operation"
+    return 'Invalid operation'
   end
 
   return result 

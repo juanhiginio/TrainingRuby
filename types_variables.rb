@@ -1,8 +1,8 @@
 # Types of Variables 
 
 # String 
-name = "Juan Higinio"
-occupation = "Programmer"
+name = 'Juan Higinio'
+occupation = 'Programmer'
 
 # Number - Integer
 age = 18
