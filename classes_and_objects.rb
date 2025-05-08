@@ -1,8 +1,10 @@
-# Classes and Objects 
-class Book 
+# frozen_string_literal: true
+
+# Classes and Objects
+class Book
   # Here we define the attributes of the class Book
-  attr_accessor :title, :author, :pages 
-end 
+  attr_accessor :title, :author, :pages
+end
 
 # Instance the class Book
 # Object is an instance of a class

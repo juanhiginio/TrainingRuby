@@ -1,11 +1,13 @@
+# frozen_string_literal: true
+
 secret_word = 'ruby'
 guess = nil
 intents = 1
 permited_intents = 5
 out_of_attempts = false
 
-while guess != secret_word && !out_of_attempts 
-  puts "This is your #{ intents } intent to guess the secret word."
+while guess != secret_word && !out_of_attempts
+  puts "This is your #{intents} intent to guess the secret word."
   puts 'Guess the secret word: '
   guess = gets.chomp
 
@@ -14,11 +16,9 @@ while guess != secret_word && !out_of_attempts
   elsif intents == permited_intents
     out_of_attempts = true
   else
-    puts "Try again!, the secret word is not #{ guess }. You have #{ permited_intents - intents } attempts left."
+    puts "Try again!, the secret word is not #{guess}. You have #{permited_intents - intents} attempts left."
     intents += 1
   end
 end
 
-if out_of_attempts
-  puts "You have used all your attempts. The secret  word was #{ secret_word }." 
-end
+puts "You have used all your attempts. The secret  word was #{secret_word}." if out_of_attempts

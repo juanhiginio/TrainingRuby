@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Simple if statement
 is_male = true
 
@@ -18,9 +20,9 @@ is_single = false
 
 if is_tall && is_single
   puts 'You are tall and single'
-elsif is_tall &&  !is_single
+elsif is_tall && !is_single
   puts 'You are tall but not single'
-elsif not is_tall && is_single
+elsif !(is_tall && is_single)
   puts 'You are not tall but single'
 else
   puts 'You are not tall and not single'

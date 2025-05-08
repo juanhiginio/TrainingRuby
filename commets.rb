@@ -1,4 +1,5 @@
-# One line comment 
-=begin 
-Multi-line code comments
-=end 
+# frozen_string_literal: true
+
+# One line comment
+#
+# Multi-line code comments

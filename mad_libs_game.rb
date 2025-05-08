@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 puts 'Enter a color: '
 color = gets.chomp
 
@@ -7,6 +9,6 @@ plural_noun = gets.chomp
 puts 'Enter a celebrity: '
 celebrity = gets.chomp
 
-puts "Roses are #{ color }"
-puts "#{ plural_noun } are blue"
-puts "I love #{ celebrity }"
+puts "Roses are #{color}"
+puts "#{plural_noun} are blue"
+puts "I love #{celebrity}"

@@ -1,2 +1,4 @@
+# frozen_string_literal: true
+
 num = 5
-num%2 == 0 ? puts 'El número es par' : puts 'El número es impar'
+num.even? ? puts('El número es par') : puts('El número es impar')

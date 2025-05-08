@@ -1,3 +1,4 @@
+# Class Question - Can have a prompt and an answer
 class Question
   attr_accessor :prompt, :answer
 
@@ -27,7 +28,7 @@ def run_test(questions)
 
     score += 1 if answer == question.answer
   end
-  message = format('You got %<foos> out of %<foos> correct!', score, questions.length)
+  message = "You got #{score} out of #{questions.length} correct!"
   puts message
 end
 
