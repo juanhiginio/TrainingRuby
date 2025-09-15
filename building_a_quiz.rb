@@ -1,7 +1,8 @@
+# Class Question - Can have a prompt and an answer
 class Question
   attr_accessor :prompt, :answer
 
-  def initialize(prompt, answer) 
+  def initialize(prompt, answer)
     @prompt = prompt
     @answer = answer
   end
@@ -12,9 +13,9 @@ p2 = "What color are bananas? \n a) Pink \n b) Red \n c) Yellow"
 p3 = "What color are pears? \n a) Yellow \n b) Green \n c) Orange"
 
 questions = Array[
-  Question.new(p1, "a"),
-  Question.new(p2, "c"),
-  Question.new(p3, "b")
+  Question.new(p1, 'a'),
+  Question.new(p2, 'c'),
+  Question.new(p3, 'b')
 ]
 
 def run_test(questions)
@@ -27,8 +28,8 @@ def run_test(questions)
 
     score += 1 if answer == question.answer
   end
-  message = format("You got %d out of %d correct!", score, questions.length)
+  message = "You got #{score} out of #{questions.length} correct!"
   puts message
-end 
+end
 
 run_test(questions)

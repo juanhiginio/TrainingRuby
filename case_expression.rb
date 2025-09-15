@@ -1,32 +1,33 @@
+# frozen_string_literal: true
+
 # Case Expression
 
-puts "Enter the abbreviation of the day of the week: "
+puts 'Enter the abbreviation of the day of the week: '
 day = gets.chomp.downcase
 
 def day_of_week(day)
-  day_name = ""
+  day_name
 
   case day
   when 'mon'
-    day_name = 'Monday'
+    'Monday'
   when 'tue'
-    day_name = 'Tuesday'
+    'Tuesday'
   when 'wed'
-    day_name = 'Wednesday'
+    'Wednesday'
   when 'thu'
-    day_name = "Thursday"
+    'Thursday'
   when 'fri'
-    day_name = 'Friday'
+    'Friday'
   when 'sat'
-    day_name = 'Saturday'
+    'Saturday'
   when 'sun'
-    day_name = 'Sunday'
+    'Sunday'
   else
-    day_name = 'Invalid day abbreviation'
+    'Invalid day abbreviation'
   end
-  return day_name
-end 
+end
 
 day_name_of_week = day_of_week(day)
-message = format("The abbreviation %s corresponds to the day of the week: %s", day, day_name_of_week)
+message = "The abbreviation #{day} corresponds to the day of the week: #{day_name_of_week}"
 puts message

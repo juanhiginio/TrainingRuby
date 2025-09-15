@@ -1,19 +1,23 @@
-class Chef 
+class Chef
   def make_chicken
     puts 'The Chef makes chicken'
   end
+
   def make_salad
     puts 'The Chef makes salad'
   end
+
   def make_special_dish
     puts 'The Chef makes special dish'
   end
 end
 
 class ItalianChef < Chef # ItalianChef is a subclass of Chef
-  def make_special_dish # method overriding
+  # method overriding
+  def make_special_dish
     puts 'The Chef makes chicken parm'
   end
+
   def make_pasta
     puts 'The Chef makes pasta'
   end

@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 states = {
   'Pensylvania' => 'PA',
   'New York' => 'NY',
@@ -11,7 +13,7 @@ states = {
 
 puts states # prints the entire hash
 
-puts states["New York"] # prints the value of the key "New York"
+puts states['New York'] # prints the value of the key "New York"
 puts states[:California] # prints the value of the key "California"
 
 numbers = {
@@ -24,4 +26,3 @@ numbers = {
 
 puts numbers[3] # prints the value of the key 3
 print numbers.size # prints the size of the hash
-

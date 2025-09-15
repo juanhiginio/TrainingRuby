@@ -1,6 +1,8 @@
-# Types of Variables 
+# frozen_string_literal: true
 
-# String 
+# Types of Variables
+
+# String
 name = 'Juan Higinio'
 occupation = 'Programmer'
 
@@ -20,4 +22,3 @@ is_single = true
 # nil - null or undefined value
 # nil is a special value in Ruby that represents the absence of a value or an undefined value. It is similar to null in other programming languages..
 flaws = nil
-

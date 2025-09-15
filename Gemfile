@@ -1,3 +1,7 @@
+# frozen_string_literal: true
+
+# Gemfile
 source 'https://rubygems.org'
 
-gem 'rubocop', '1.57.2'
+gem 'rubocop'
+gem 'ruby-lsp'
